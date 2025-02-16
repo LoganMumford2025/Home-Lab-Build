@@ -15,7 +15,7 @@ A personal home lab setup for experimenting with various technologies, including
 | Server     | Homemade Server |
 | Storage    | 4x 8Tb HDD in RAIDZ1, 2x 4Tb Samsung 2.5" SSD 1x 16Tb HDD (Samba Storage) 1x Samsung 512Gb M.2 Boot Drive |
 |Routers     | ASUS ASUS RT-BE86U Wifi 7 Router, GL.iNet GL-MT3000 (Beryl AX) Router, ISP provided router |
-| Switch     | Cisco CBS 350 Switch|
+| Switch     | Cisco CBS 350 16 Port Switch|
 | Firewall   | Protectli Vault 4 Port with OPNsense with Zenarmor Layer 7 Inspection |
 
 ## Software Stack
@@ -36,7 +36,17 @@ A personal home lab setup for experimenting with various technologies, including
 These are a few screenshots of some of the services I have currently installed. This is an ongoing project and is dynamic in nature. 
 
 Proxmox Dashboard
+
 ![Proxmox Screen](https://github.com/user-attachments/assets/ee2cdc43-4b39-4241-83b8-7c2ebff5c9da)
 
+OPNsense Firewall with Zenarmor Dashboard
 
+![Firewall Screen Shot](https://github.com/user-attachments/assets/b780116f-d0a4-40c0-b19e-1951b9839d61)
 
+TAK Server Metrics Dashboard
+
+![TAK Server Dashboard](https://github.com/user-attachments/assets/ba553cd3-dc80-4867-9cf2-a0e77f4617b3)
+
+Next Cloud Dashboard
+
+![Next Cloud](https://github.com/user-attachments/assets/313088ec-5f36-4be0-a474-e4596925c123)
