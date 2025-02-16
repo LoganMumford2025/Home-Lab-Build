@@ -1,4 +1,4 @@
-# Home Lab Build Project
+# Logan Home Lab
 
 ## Overview
 This is a snapshot of my personal home lab, which serves a dual purpose: providing essential personal amenities while acting as a sandbox for experimenting with new operating systems and software. Beyond hands-on experience with various operating systems, I also refine my skills in firewall rule management, Cisco CLI, and virtual machine backup strategies. This is an evolving project, and I am excited to expand and enhance it as my knowledge and expertise grow.
