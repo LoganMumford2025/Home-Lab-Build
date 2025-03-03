@@ -58,19 +58,20 @@ This is a snapshot of my personal home lab, which serves a dual purpose: providi
 
 ## Key Learnings
 
-- Linux has a lot of dependencies. After installing the initial linux OS, any version, be ready to download more packages for some functionality. Net-tools, nano editor, etc.
-- I suck at Virtual Networks. Couldn't get a virtual network configured properly to hide the gateway in order to create a safe sandbox to play with bad things. This will be a future problem when I dabble with viruses later down the line.
-- Linux CLI language is not Cisco Switch CLI language. I wish it was.
+-  Learned to create a local network within proxmox that does not have a gateway or path to any other VM's. Sandbox environment
+- Linux CLI language is not Cisco Switch CLI language.
 - Learned a lot of Linux CLI. Definitely would love to take a course on Linux administration.
-- Dabbled with python scripts and modified some configuration files (without making backup copies) whoops! Not good. Breaking the only copy of a configuration file lead from VM's working great to not at all and banging my head against the wall shaming myself for tinkering and trying to do something pointless when the whole thing worked to begin with.
+- Always make a backup of a .conf file before editing.
+- Take snapshots of VM's after initial install and updates to save time after breaking configurations.
 - Don't fix it if it isn't broken!!
+- Learned how to pass files from windows powershell using SCP command to communicate to Linux VM and transfer files.
 
 ## Next Steps & Improvements
 
-- Implement a virtual network for certain projects so they can see or find the gateway for security reasons. Sandboxed projects with Kali Linux or working with malware.
-- Automate tasks using PowerShell or Python scripts. Nothing runs on scripts yet like auto update or email updates on node status etc.
+- Automate tasks using Bash or Python scripts. Nothing runs on scripts yet like auto update or email updates on node status etc.
 - Learn to read and be more efficient with understanding SIEM (Splunk and Wazuh). I hope to be able to fine tune alerts and be able to dismiss many due to not really being relevant alerts.
 - Learn to network better. My networking skills need work to better configure this entire setup for a more efficient method of packet transmission.
+- Learn to use Wire Shark better to understand network traffic and optimize pathways and routes.
 
 ## Documentation & Screenshots
 
